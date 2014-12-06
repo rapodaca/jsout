@@ -1,0 +1,13 @@
+name: jsout
+description: >
+  A library useful for applications or for sharing on pub.dartlang.org.
+version: 0.0.1
+dev_dependencies:
+  unittest: any
+dependencies:
+  js:
+    git:
+      url: git://github.com/dart-lang/js-interop.git
+transformers:
+  - js
+  - js/initializer
