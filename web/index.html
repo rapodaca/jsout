@@ -1,18 +1,21 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head></head>
   <body>
     <script src="main.dart_initialize.js"></script>
     <script src="main.dart.js"></script>
     <script>
-      var b = new dart.jsout.B('lizzy');
+      var b = new dart.jsout.B('B');
       
-      b.speak();
-      b.talk();
+      b.orate();
+      
+      b.speak(); // this throws error, no b.talk function
     </script>
   </body>
-</html>-->
+</html>
 
+<!-- Below works on Dartium, but fails on Chrome with an error in the constructor. -->
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -22,3 +25,4 @@
     </body>
   </head>
 </html>
+-->

@@ -14,3 +14,14 @@ class A {
     print(name);
   }
 }
+
+@Export()
+class B extends A {
+  String name;
+  
+  B(this.name);
+  
+  orate() {
+    print("Four score and seven years ago...");
+  }
+}
