@@ -5,11 +5,13 @@
     <script src="main.dart_initialize.js"></script>
     <script src="main.dart.js"></script>
     <script>
-      var b = new dart.jsout.B('B');
+      // Run this in console after page load.
       
-      b.orate();
+      // var b = new dart.jsout.B('B');
       
-      b.speak(); // this throws error, no b.talk function
+      // b.orate(); // prints oration
+      
+      // b.talk(); // this throws error, no b.talk function
     </script>
   </body>
 </html>
@@ -20,9 +22,16 @@
 <html>
   <head>
     <script src="packages/js/interop.js"></script>
-    <body>
-      <script type="application/dart" src="main.dart"></script>
-    </body>
   </head>
+  <body>
+    <script type="application/dart" src="main.dart"></script>
+    <script>
+      // Run this in console after page load.
+      
+      // var a = new dart.jsout.A.withName('A');
+        
+      // a.talk(); // prints 'A'
+    </script>
+  </body>
 </html>
 -->
